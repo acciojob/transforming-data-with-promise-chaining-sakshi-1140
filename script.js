@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const button = document.querySelector("#btn");
 const input = document.querySelector("#ip");
 const output = document.querySelector("#output");
@@ -60,7 +59,7 @@ function processNumber(num) {
             })
         )
         .then((num) => {
-            output.textContent = `Final result: ${num}`;
+            output.textContent = `Final Result: ${num}`;
         })
         .catch(() => {
             output.textContent = `Error`;
